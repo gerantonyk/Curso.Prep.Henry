@@ -1,0 +1,9 @@
+Variables: Son una forma de almacenar un valor para usarlo más tarde.
+Strings: Son cadenas de caracteres. Tambien es un tipo de dato que se puede almacenar en una variable
+Funciones (argumentos, return): Las funciones son un tipo de objeto, llamado calleable object. Tienen porciones de código que permite
+Argumentos, son parametros de entrada que recibe la funcion y cuyos valores van a estar disponibles dentro de la Función
+return, es un commando que permite retornar valores que se encuentran dentro de la funcion, normalmente los valores que se usan en
+una función solo pueden utilizarse dentro de ella. Para poder disponer de un valor por fuera debe utilizarse el comando return. (usar declaración en lugar de comando)
+Declaraciones If . La declaración If nos permite ejecutar una porción de código si se cumple cierta condicion, de lo contrario ejecutar otra porción alternativa o nada.
+Es un operador de control de flujo. "operador de control de flujo"
+Valores booleanos. Su nombre proviene de la logica de Boole. Y pueden tener un valor apagado o encendido; 0 o 1; verdadero o falso. representan el lenguaje maquina en código binario
