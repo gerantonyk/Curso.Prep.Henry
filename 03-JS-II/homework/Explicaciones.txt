@@ -1,0 +1,26 @@
+For
+El for es un operador de control de flujo que se utiliza para realizar iteraciones. Tiene la siguiente estructura
+for (var i=0; i<100; i++)
+Es decir una definicion de variable, una condicion de corte y un incremento de la variable que se encuentra en la condicion
+
+&&
+Operador de logica booleana equivalente a la "y" o "and" su tabla de verdad es
+a b   a && b
+V V     V
+V F     F
+F V     F
+F F     F
+
+||
+Operador de lógica booleana equivalente a la "o" o "or" su tabla de verdad es
+a b   a || b
+V V     V
+V F     V
+F V     V
+F F     F
+
+!
+Otro operador booleando significa "not" o "no". Su tabla de verdad es
+a !a
+V F
+F V
