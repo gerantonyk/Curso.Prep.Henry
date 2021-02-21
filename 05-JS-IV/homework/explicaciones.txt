@@ -1,0 +1,39 @@
+Objetos
+Los objetos son un tipo de contendedor similar a las matrices. con la diferencia que en su definicion contienen pares de {clave;valor}
+por ejemplo:
+var person {
+  nombre: 'Raul',
+  edad: 33,
+  saludo: function saludar() {console.log('Hola' + this.nombre)}
+}
+
+En javascript absolutamente todo esta construido con objetos. Los arrays son objetos, los strings, los booldanos, etc.
+
+Propiedades
+
+las propiedades son las claves que tiene un objeto estas pueden ser de cualquier tipo, incluso funciones.
+Para acceder a las propiedades basta con colocar el nombre del objeto y entre corchetes [] colocar el nombre de la propiedad
+person[nombre] va a retornar Raul. Tambien se puede utilizar la misma notacion para modificar el valor de una propiedad.
+person[nombre] = 'Ramon'. Ahora la propiedad nombre de nuestro objeto person contendra el valor 'Ramon' en lugar de 'Raul'
+Otra forma de acceder a las propiedades es con ".". Se coloca el nombre del objeto y luego un punto y el nombre de la propiedades.
+Por ejemplo: person.edad. Nos va a retornar el valor 33, tambien se puede modificar la propiedad del objeto con la misma notacion
+perdon.edad = 31. Ahora nuestra objeto person tendran el valor 31 en su propiedad edad.
+
+Metodos
+Los metodos son un tipo particular de propiedades que se obtiene al asignarle a una propiedad una funcion. Se manejan de la misma
+manera que otras propiedades pero al invocarlas se pueden establecer argumentos.
+
+bucle for in
+
+Es un tipo de bucle que nos permite recorrer todas las propiedades que se encuentran en un objetos
+for (var clave in person) {
+  console.log(clave);
+  console.log(person[clave]);
+}
+
+
+La principal diferencia entre la brakets notation y la dot notation es que en la primera podemos utilizar variables para referirnos
+a la clave que queremos acceder mientras que que en el segundo caso no
+var i = 'edad'
+console.loig(person[i]) //va a devolver 31
+console.loig(person.i) //va a devolver undefined

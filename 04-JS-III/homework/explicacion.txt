@@ -1,0 +1,13 @@
+Array
+un array es una colección de datos, estos datos pueden ser de cualquier tipo, y al como javascript es un lenguaje no tipado
+en un mismo array pueden existir distintos tipos de datos. Para acceder a un elemento de la lista, sólo hace falta poner el
+nombre de la variable y luego entre corchetes (brakets) colocar la posición. Recordar que en los arrays la primera posición
+es siempre la que lleva el valor 0
+
+Los metodos más comunes son:
+
+length: devuelve la cantidad de elementos que tiene el arrays
+push: permite adicionar un elemento al final de la lista y devuelve la longitud
+pop: permite elminar el último elemento de la lista y devuelve dicho elementos
+unshift: permite agregar un elemento al inicio del arrays
+shit: permite eliminar el primer elemento
