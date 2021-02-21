@@ -1,0 +1,16 @@
+Prototype:
+
+Prototype
+Funciona similar al concepto de clase. Un prototipo es plantilla. Que se utiliza como modelo para definir
+dicha plantilla con propiedades y metodos comunes.
+es una forma de establecer metodos comunes a los elementos de una clase
+sin tener que especificar el metodo para cada elemento de la clase.
+Si un metodo no esta definido se va a buscar al prototipo, sino lo encuentra va al prototipo del protoripo y asi sucesivamente
+
+todos los objetos tienen como prototypo al Objetct
+
+
+Constructors (de Clases)
+
+Son funciones especiales que se utilizan para definir clases, por convención se notan con la primer letra mayúscula para identificarlas. Contienen las propiedades
+de la clase 
