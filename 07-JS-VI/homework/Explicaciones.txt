@@ -1,0 +1,4 @@
+Funcciones call back
+
+Las funciones que se usan como argumentos de otras funciones son llamadas callbacks, por convencion se notan como cb.
+en javascript las funciones se pueden usar como argumentos y devoluciones de llamadas, 
