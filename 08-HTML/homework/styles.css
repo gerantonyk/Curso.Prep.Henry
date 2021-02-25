@@ -2,9 +2,15 @@ img {
   width: 400px;
 }
 
-.divClass {}
+.divClass {
+  margin: auto;
+  width: 50%;
+  color:darkred;
+  text-align: center;
+}
 
 #thirdDiv {
+  margin: auto;
   height: 600px ;
   width: 500px;
   background-color: green;
